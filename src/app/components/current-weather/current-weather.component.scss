@@ -1,0 +1,84 @@
+/* styles.css (o il tuo file CSS personalizzato) */
+
+/* Stile per il contenitore principale del componente */
+
+
+
+.weather-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Stile per il titolo del componente */
+.weather-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Stile per i blocchi di informazioni meteo */
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+/* Stile per il titolo dell'informazione meteo */
+.info-title {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Stile per il valore dell'informazione meteo */
+.info-value {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Stile per le informazioni aggiuntive, ad esempio il testo sul luogo o l'ultima aggiornamento */
+.additional-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Stile per il testo in caso di errore o nessun dato disponibile */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Stile per l'immagine delle condizioni meteo (puoi usare icone personalizzate o font icon) */
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    fill: #007bff;
+    /* Colore personalizzabile */
+}
+
+.main{
+    padding: 3em;
+    font-size:large ;
+    gap: 5em;
+    border: 0.5px solid #b7b7b7;
+    border-radius: 1em;
+    width: 15em;
+}
+.spacer {
+    flex: 1 1 auto;
+    } 
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+

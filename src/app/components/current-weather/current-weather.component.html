@@ -1,0 +1,49 @@
+<div class="container">
+<div *ngIf="weatherData" class="main"> 
+    <h2>GENOVA</h2>
+
+    <div class="weather-info">
+        <div class="info-item">
+            <p><strong>Temperatura:</strong></p>
+            <div class="spacer"></div>
+            <p>{{ weatherData.hourly.temperature_2m[0] }}°C</p>
+        </div>
+
+        <div class="info-item">
+            <p><strong>Umidità:</strong></p>
+            <div class="spacer"></div>
+
+            <p>{{ weatherData.hourly.relativehumidity_2m[0] }}%</p>
+        </div>
+
+        <div class="info-item">
+            <p><strong>Prob. di precipitazioni:</strong></p>
+
+            <div class="spacer"></div>
+
+            <p>{{ weatherData.hourly.precipitation_probability[0] }}%</p>
+        </div>
+
+        <div class="info-item">
+            <p><strong>Condizioni meteo:</strong></p>
+            <div class="spacer"></div>
+
+            <p>{{ weatherData.hourly.weathercode[0] }}</p>
+        </div>
+
+        <div class="info-item">
+            <p><strong>Copertura nuvolosa:</strong></p>
+            <div class="spacer"></div>
+
+            <p>{{ weatherData.hourly.cloudcover[0] }}%</p>
+        </div>
+
+        <div class="info-item">
+            <p><strong>Velocità del vento:</strong></p>
+            <div class="spacer"></div>
+
+            <p>{{ weatherData.hourly.windspeed_10m[0] }} m/s</p>
+        </div>
+    </div>
+</div>
+</div>
